@@ -16,17 +16,19 @@ def reduce(n):
     nlist = [int(x) for x in str(n)]
     #print(nlist, len(nlist))
     count =0
+    rlist = []
     while len(nlist) > 1:
         count +=1
         sumit = sum(nlist)
+        rlist.append(sumit)
         #print(sumit)
         nlist = [int(x) for x in str(sumit)]
         #print(nlist, len(nlist))
-    return sum(nlist), count # returns the sum of a single list item converting it to int
+    return sum(nlist), count, rlist # returns the sum of a single list item converting it to int
 
 
 
-## prints number, fibonacci and (fibonacci reduction and number of times reduced)
+## prints number, fibonacci and (fibonacci reduction and number of times reduced, and [list of reductions])
 ifib(500)   
 
 

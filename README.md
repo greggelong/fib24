@@ -37,23 +37,25 @@ how big would the number have to be that you would need to do the reduction
 
 3 times or more?
 
+
+
 Answered this question: 
 
 the first fibonacci number that needs to be reduced 3 times is
 
-18 2584 (1, 3) 
+(index of fib, fibonacci number and (fibonacci reduction and number of times reduced, and [list of reductions]))
 
-18th fibo number = 2584, reduces to 1 after 3 reductions
+18 2584 (1, 3, [19, 10, 1])
+
+18th fibonacci number = 2584, reduces to 1 after 3 reductions
 
 I think it is interesting that some very large numbers 
 
 such as 
 
-> 496 20341574322680408081083829243820203612317308197211964554628215486203974898255803242740333222721700974747 (6, 2) 
+> 496 20341574322680408081083829243820203612317308197211964554628215486203974898255803242740333222721700974747 (6, 2, [411, 6])
 
-
-
-the 496th fibo number reduces to 6 just after 2 reductions!
+the 496th fibonacci number reduces to 6 just after 2 reductions!
 
 
 
