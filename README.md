@@ -1,5 +1,7 @@
 # fibonacci 24 repeating pattern
 
+## Fibonacci 24 repeating pattern after reduction to single digit
+
 I learned about this pattern from a rather spiritual math Insta post
 
 it linked to the web site:
