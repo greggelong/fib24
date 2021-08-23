@@ -58,4 +58,27 @@ such as
 the 496th fibonacci number reduces to 6 just after 2 reductions!
 
 
+## bit length of fibonacci numbers
+
+I am making a binary plot visualizer in p5.js 
+
+I would like to make plots of different sequences 
+
+but fibonacci grows quite large and reaches 32 bits by the 47th number
+
+If i am just doing the positive integers N I can get to 255 in just 8 bits
+
+```python
+>>> a = 255
+>>> a.bit_length()
+8
+```
+
+here is a link about the binary plot that wolfram mathworld uses
+
+I really like it
+
+https://mathworld.wolfram.com/BinaryPlot.html
+
+
 
