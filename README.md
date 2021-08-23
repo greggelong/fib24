@@ -80,5 +80,7 @@ I really like it
 
 https://mathworld.wolfram.com/BinaryPlot.html
 
+link to my binary plot repository
 
+https://github.com/greggelong/binaryPlot
 
